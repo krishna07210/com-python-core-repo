@@ -19,6 +19,8 @@ def main():
     s = 'this is {}, that is {}'
     print(s.format(5,9))
 
+    print(s.center(80))
+
     s1 = 'this is %d, that is %d' % (a,b)
     print(s1 )
 
@@ -26,6 +28,8 @@ def main():
     print('this is {}, that is {}'.format(b,a))
     print('this is {1}, that is {0}'.format(b,a))
     print('this is {bob}, that is {fred}'.format(bob=a,fred=b))
+
+
 
 
 if __name__ == "__main__": main()
